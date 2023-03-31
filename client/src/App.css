@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #f8362d;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #c32c24;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: #f8362d;
+    color: #fff;
+    padding: 15px;
+    border-radius: 40px;
+    transition: background-color .5s;
+}
+
+button:hover {
+    background-color: #c32c24;
+}
